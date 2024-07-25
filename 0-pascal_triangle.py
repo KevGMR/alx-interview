@@ -13,7 +13,7 @@ def pascal_triangle(n):
         return []
     else:
         res = []
-        for i in range(n):
+        for _ in range(n):
             if len(res) == 0:
                 res.append([1])
             else:
